@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:controller="edu.stevens.friccobo.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Hello World" />
+            <Label text="This is some message" />
+            <Label fx:id="resultLabel" text="And another message" />
+            <Button onAction="#increment" mnemonicParsing="false" text="Click Me" />
+         </children>
+      </VBox>
+   </children>
+</StackPane>
